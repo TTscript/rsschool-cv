@@ -1,8 +1,8 @@
 - #### Timur Tokumov  
-- #### phone +7(776)113-32-22  
+- #### Phone +7(776)113-32-22  
 - #### My goal is to find a job in a company where I can grow with this company. My strengths are hard work, communication, and stress resistance. I have about one and a half years of experience in non-commercial projects. Every day I learn something new and develop in my profession.  
 - #### My skills are pug, sass, js, gulp, bem methodology, git, github.  
-- #### Solitions in Codewars
+- #### Solutions in Codewars
 
 ```  
 function createPhoneNumber(numbers) {
