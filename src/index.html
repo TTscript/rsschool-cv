@@ -9,151 +9,187 @@
 </head>
 <body>
   <div class="container">
-    <section class="contact-info">
-      <h2 class="visually-hidden">Contact information and skills</h2>
-      <section class="photo-block">
-        <h2 class="visually-hidden">Photo</h2>
-        <img src="img/photo.jpg" width="380" height="300" alt="Author's photo">
-      </section>
-      <section class="info-block">
-        <h2 class="visually-hidden">Information block</h2>
-        <section class="name-and-contacts">
-          <h2 class="visually-hidden">Name and contacts</h2>
-          <h3>Timur Tokumov</h3>
-          <div class="profession-block">
-            <div class="rhombuses">
-              <div class="rhombus"></div>
-              <div class="rhombus"></div>
-              <div class="rhombus"></div>
-              <div class="rhombus"></div>
-            </div>
-            <p data-profession="profession">Front-end Developer</p>
-          </div>
-          <p data-phone="phone">+7-776-113-32-22</p>
-          <p data-address="address">Nur-Sultan, <br> Kazakhstan 010000</p>
-        </section>
-        <section class="skills">
-          <h2 class="visually-hidden">My skills</h2>
-          <div class="skill">
-            <div class="skill__inner pug">
-              <div class="skill__img"></div>
-            </div>
-            <p>PUG</p>
-          </div>
-          <div class="skill">
-            <div class="skill__inner sass">
-              <div class="skill__img"></div>
-            </div>
-            <p>SASS</p>
-          </div>
-          <div class="skill">
-            <div class="skill__inner js">
-              <div class="skill__img"></div>
-            </div>
-            <p>JAVASCRIPT</p>
-          </div>
-          <div class="skill">
-            <div class="skill__inner gulp">
-              <div class="skill__img"></div>
-            </div>
-            <p>GULP</p>
-          </div>
-          <div class="skill">
-            <div class="skill__inner git">
-              <div class="skill__img"></div>
-            </div>
-            <p>GIT</p>
-          </div>
-          <div class="skill">
-            <div class="skill__inner figma">
-              <div class="skill__img"></div>
-            </div>
-            <p>FIGMA</p>
-          </div>
-        </section>
-        <section class="socials">
-          <h2 class="visually-hidden">Socials</h2>
-          <div class="socials__inner">
-            <div class="social github">
-              <div class="social__img"></div>
-            </div>
-            <div class="social telegram">
-              <div class="social__img"></div>
-            </div>
-            <div class="social linkedin">
-              <div class="social__img"></div>
-            </div>
-            <div class="social skype">
-              <div class="social__img"></div>
-            </div>
-          </div>
-        </section>
-      </section>
-    </section>
-    <section class="main-info">
-      <h1 class="visually-hidden">Main information</h1>
-      <section class="about-me">
-        <h2>About me</h2>
-        <h3>Hello guys, welcome to my personal page. My name is Timur and I'am a starting Front-end Developer</h3>
-        <p>My education is accounter. I really long time thought about changing my main profession. About a year ago I decided to became a programer.</p>
-      </section>
-      <section class="all-skills">
-        <h2>All skills</h2>
-        <ul>
-          <li>Pug, HTML, BEM</li>
-          <li>CSS, SASS</li>
-          <li>JavaScript</li>
-          <li>Git, GitHub</li>
-          <li>Gulp</li>
-          <li>React</li>
-          <li>Redux</li>
-          <li>English - B1</li>
-        </ul>
-      </section>
-      <section class="strong-sides">
-        <h2>Strong sides</h2>
-        <ul>
-          <li>Hardworking</li>
-          <li>Responsible</li>
-          <li>Sociable</li>
-          <li>Goal-oriented</li>
-          <li>Conscientious</li>
-          <li>Team-player</li>
-        </ul>
-      </section>
-      <section class="code-exapmles">
-        <h2>Code example</h2>
-        <pre>
-          <code>
-            function createPhoneNumber(numbers) {
-              return `(${(numbers.slice(0, 3).join(''))}) ${numbers.slice(3, 6).join('')}-${numbers.slice(6).join('')}`;
-          }
-          console.log(createPhoneNumber([1,2,3,4,5,6,7,8,9,0]));
-          </code>
-        </pre>
-      </section>
-      <section class="projects">
-        <h2>My projects</h2>
-        <div class="projects__inner">
-          <a class="project" href="https://ttscript.github.io/Tokumov_fitness/build/" target="_blank"><img src="./img/projects/fitness.png" height="200" width="300" alt="Fitness"></a>
-          <a class="project" href="https://ttscript.github.io/Tokumov_jewellery/build/" target="_blank"><img src="./img/projects/jewellery.png" height="200" width="300" alt="Jewellery"></a>
-          <a class="project" href="https://ttscript.github.io/Tokumov_smart-device/build/" target="_blank"><img src="./img/projects/smart-device.png" height="200" width="300" alt="Smart Device"></a>
-          <a class="project" href="https://ttscript.github.io/Tokumov_bycicles/build/" target="_blank"><img src="./img/projects/bycicles.png" height="200" width="300" alt="Moon. Bycicles store"></a>
-          <a class="project" href="https://ttscript.github.io/Tokumov_way/src/" target="_blank"><img src="./img/projects/travelling-to-europe.png" height="200" width="300" alt="Travelling to Europe"></a>
-          <a class="project" href="https://ttscript.github.io/1675795-keksobooking-23/" target="_blank"><img src="./img/projects/keksobooking.png" height="200" width="300" alt="Keksobooking"></a>
-          <a class="project" href="https://ttscript.github.io/1675795-cat-energy-22/" target="_blank"><img src="./img/projects/cat-energy.png" height="200" width="300" alt="Cat Energy"></a>
-          <a class="project" href="https://ttscript.github.io/1675795-sedona-30/" target="_blank"><img src="./img/projects/sedona.png" height="200" width="300" alt="Sedona"></a>
+    <header class="page-header">
+      <div class="page-header__inner">
+        <a href="#all-skills">All skills</a>
+        <a href="#strengths">Strengths</a>
+        <a href="#code">Code example</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#phone">Phone</a>
+        <a href="#socials">Socials</a>
       </div>
+    </header>
+    <main class="page-main">
+      <section class="contact-info">
+        <h2 class="visually-hidden">Contact information and skills</h2>
+        <section class="photo-block">
+          <h2 class="visually-hidden">Photo</h2>
+          <img src="img/photo.jpg" width="330" height="330" alt="Author's photo">
+        </section>
+        <section class="info-block">
+          <h2 class="visually-hidden">Information block</h2>
+          <section class="name-and-contacts">
+            <h2 class="visually-hidden">Name and contacts</h2>
+            <h3>Timur Tokumov</h3>
+            <div class="profession-block">
+              <div class="rhombuses">
+                <div class="rhombus"></div>
+                <div class="rhombus"></div>
+                <div class="rhombus"></div>
+                <div class="rhombus"></div>
+              </div>
+              <p data-profession="profession">Front-end Developer</p>
+            </div>
+            <p id="phone" data-phone="phone">+7-776-113-32-22</p>
+            <p data-address="address">Nur-Sultan, <br> Kazakhstan 010000</p>
+          </section>
+          <section class="skills">
+            <h2 class="visually-hidden">My skills</h2>
+            <div class="skill">
+              <div class="skill__inner pug">
+                <div class="skill__img"></div>
+              </div>
+              <p>PUG</p>
+            </div>
+            <div class="skill">
+              <div class="skill__inner sass">
+                <div class="skill__img"></div>
+              </div>
+              <p>SASS</p>
+            </div>
+            <div class="skill">
+              <div class="skill__inner js">
+                <div class="skill__img"></div>
+              </div>
+              <p>JAVASCRIPT</p>
+            </div>
+            <div class="skill">
+              <div class="skill__inner gulp">
+                <div class="skill__img"></div>
+              </div>
+              <p>GULP</p>
+            </div>
+            <div class="skill">
+              <div class="skill__inner git">
+                <div class="skill__img"></div>
+              </div>
+              <p>GIT</p>
+            </div>
+            <div class="skill">
+              <div class="skill__inner figma">
+                <div class="skill__img"></div>
+              </div>
+              <p>FIGMA</p>
+            </div>
+          </section>
+          <section id="socials" class="socials">
+            <h2 class="visually-hidden">Socials</h2>
+            <div class="socials__inner">
+              <div class="social github">
+                <div class="social__img"></div>
+              </div>
+              <div class="social telegram">
+                <div class="social__img"></div>
+              </div>
+              <div class="social linkedin">
+                <div class="social__img"></div>
+              </div>
+              <div class="social skype">
+                <div class="social__img"></div>
+              </div>
+            </div>
+          </section>
+        </section>
       </section>
-      <section class="education">
-        <h2>Education</h2>
-        <div class="education__inner">
-          <a class="project" href="https://ttscript.github.io/1675795-sedona-30/" target="_blank"><img src="./img/projects/sedona.png" height="200" width="300" alt="Sedona"></a>
-          <a class="project" href="https://ttscript.github.io/1675795-sedona-30/" target="_blank"><img src="./img/projects/sedona.png" height="200" width="300" alt="Sedona"></a>
-          <a class="project" href="https://ttscript.github.io/1675795-sedona-30/" target="_blank"><img src="./img/projects/sedona.png" height="200" width="300" alt="Sedona"></a>
-        </div>
+      <section class="main-info">
+        <h1 class="visually-hidden">Main information</h1>
+        <section class="about-me">
+          <h2>About me</h2>
+          <h3>Hello guys, welcome to my personal page. My name is Timur and I'am a starting Front-end Developer</h3>
+          <p>My education is accounter. I really long time thought about changing my main profession. About a year ago I decided to became a programer.</p>
+        </section>
+        <section id="all-skills" class="all-skills">
+          <h2>All skills</h2>
+          <ul>
+            <li>Pug, HTML, BEM</li>
+            <li>CSS, SASS</li>
+            <li>JavaScript</li>
+            <li>Git, GitHub</li>
+            <li>Gulp</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>English - B1</li>
+          </ul>
+        </section>
+        <section id="strengths" class="strong-sides">
+          <h2>Strengths</h2>
+          <ul>
+            <li>Hardworking</li>
+            <li>Responsible</li>
+            <li>Sociable</li>
+            <li>Goal-oriented</li>
+            <li>Conscientious</li>
+            <li>Team-player</li>
+          </ul>
+        </section>
+        <section id="code" class="code-exapmles">
+          <h2>Code example</h2>
+          <pre>
+            <code>
+              function createPhoneNumber(numbers) {
+                return `(${(numbers.slice(0, 3).join(''))}) ${numbers.slice(3, 6).join('')}-${numbers.slice(6).join('')}`;
+            }
+            console.log(createPhoneNumber([1,2,3,4,5,6,7,8,9,0]));
+            </code>
+          </pre>
+        </section>
+        <section id="projects" class="projects">
+          <h2>My projects</h2>
+          <div class="projects__inner">
+            <a class="project" href="https://ttscript.github.io/Tokumov_fitness/build/" target="_blank"><img src="./img/projects/fitness.png" height="200" width="300" alt="Fitness"></a>
+            <a class="project" href="https://ttscript.github.io/Tokumov_jewellery/build/" target="_blank"><img src="./img/projects/jewellery.png" height="200" width="300" alt="Jewellery"></a>
+            <a class="project" href="https://ttscript.github.io/Tokumov_smart-device/build/" target="_blank"><img src="./img/projects/smart-device.png" height="200" width="300" alt="Smart Device"></a>
+            <a class="project" href="https://ttscript.github.io/Tokumov_bycicles/build/" target="_blank"><img src="./img/projects/bycicles.png" height="200" width="300" alt="Moon. Bycicles store"></a>
+            <a class="project" href="https://ttscript.github.io/Tokumov_way/src/" target="_blank"><img src="./img/projects/travelling-to-europe.png" height="200" width="300" alt="Travelling to Europe"></a>
+            <a class="project" href="https://ttscript.github.io/1675795-keksobooking-23/" target="_blank"><img src="./img/projects/keksobooking.png" height="200" width="300" alt="Keksobooking"></a>
+            <a class="project" href="https://ttscript.github.io/1675795-cat-energy-22/" target="_blank"><img src="./img/projects/cat-energy.png" height="200" width="300" alt="Cat Energy"></a>
+            <a class="project" href="https://ttscript.github.io/1675795-sedona-30/" target="_blank"><img src="./img/projects/sedona.png" height="200" width="300" alt="Sedona"></a>
+          </div>
+        </section>
+        <section class="education">
+          <h2>Education</h2>
+          <div id="education" class="education__inner">
+            <div class="education__item website-coding">
+              <h3>HTML & CSS. Professional Website Coding</h3>
+              <p>01/18 - 03/21 2021</p>
+              <p>HTML Academy</p>
+            </div>
+            <div class="education__item adaptive-website">
+              <h3>HTML & CSS. Adaptive Website Coding and Automation</h3>
+              <p>03/22 - 05/23 2021</p>
+              <p>HTML Academy</p>
+            </div>
+            <div class="education__item">
+              <h3>JavaScript. Professional Development of Web Interfaces</h3>
+              <p>05/25 - 07/25 2021</p>
+              <p>HTML Academy</p>
+            </div>
+            <div class="education__item">
+              <h3>JavaScript. Architecture of Front-end Applications</h3>
+              <p>07/26 - 09/26 2021</p>
+              <p>HTML Academy</p>
+            </div>
+            <div class="education__item">
+              <h3>React. Development of Complex Front-end Applications</h3>
+              <p>09/27 - 11/28 2021</p>
+              <p>HTML Academy</p>
+            </div>
+          </div>
+        </section>
       </section>
-    </section>
+    </main>
+    <footer class="page-footer"></footer>
   </div>
 </body>
 </html>
